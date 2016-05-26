@@ -7,14 +7,29 @@
 //
 
 import UIKit
+//import SwiftyJSON
+//
+//
+//
+//func parsejson(){
+//    let path : String = NSBundle.mainBundle().pathForResource("MRT", ofType: "json") as String!
+//    let jsonData = NSData(contentsOfFile: path) as NSData!
+//    let json = JSON(data: jsonData)
+//    //, options: NSJSONReadingOptions.MutableContainers, error: nil)
+//    //var jj = json["apple1"]
+//    //print ( json[1]["lines"] )
+//}
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        
+        //parsejson()
         // Override point for customization after application launch.
         return true
     }
